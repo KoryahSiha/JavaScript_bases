@@ -25,10 +25,10 @@ function tableDeMultiplication(nombreSaisi) {
     // cette fonction permet d'afficher la table de multiplication de 1 à 10 d'un nombre.
     // chiffreSaisi contient un nombre entier compris entre 1 et 10.
     // return renvoie la table de multiplication du chiffre saisi.
-    for (let i = 1; i < 10; i++) {
+    for (let i = 1; i <= 10; i++) {
         result = nombreSaisi * i;
         console.log(`${nombreSaisi} * ${i} = ${result}`);
     }
 }
 
-console.log(tableDeMultiplication(nombreSaisi))
+tableDeMultiplication(nombreSaisi)
